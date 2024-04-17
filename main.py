@@ -35,7 +35,7 @@ def decode(text: str) -> None:
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    choice = input("To encode please enter: 'E', \nTo decode please enter: 'D' ")
+    choice = input("To encode please enter 'E': , \nTo decode please enter 'D': \n")
     if choice == 'E':
         encode(input("Enter your text here: "))
     elif choice == 'D':
